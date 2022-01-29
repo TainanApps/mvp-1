@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>My First Web Site</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="title">My First Web Page</h1>
+        <img src="https://images.pexels.com/photos/10049567/pexels-photo-10049567.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="picture-of-rose">
+
+
+
+        <div>
+            <button id="red" class="btn red" data-color="crimson" onclick="changeColor(event)">Red</button>
+            <button id="blue" class="btn blue" data-color="navy" onclick="changeColor(event)">Blue</button>
+            <button id="green" class="btn green" data-color="forestgreen" onclick="changeColor(event)">Green</button>
+        </div>
+
+        <div>
+            <button id="p1" class="btn black" data-color="crimson"
+                data-src="https://images.pexels.com/photos/10049567/pexels-photo-10049567.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                onclick="changeImg(event)">Rose</button>
+            <button id="p2" class="btn black" data-color="navy"
+                data-src="https://images.pexels.com/photos/10875505/pexels-photo-10875505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                onclick="changeImg(event)">Lanterns</button>
+            <button id="p3" class="btn black" data-color="forestgreen"
+                data-src="https://images.pexels.com/photos/10828106/pexels-photo-10828106.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                onclick="changeImg(event)">Fuscia</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
